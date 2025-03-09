@@ -25,33 +25,9 @@ The project utilizes multiple datasets for training and evaluation:
 | urltype | URL classification (benign/malicious) |
 | start_ids, end_ids, char_ids | CharBERT-specific embeddings |
 
-**Algorithm and Model**
+**Experiments**
 
-(1️) Backbone Network
-
-  - Uses BiGRU to form token embeddings.
-  - CNN-based Merging and Splitting mechanism.
-  - Residual connections to retain original details.
-
-(2️) Hierarchical Feature Extraction
-
-  - Combines word-level and character-level outputs.
-  - Uses 1D convolution and tensor permutations for feature alignment.
-
-(3️) Layer-Aware Attention
-
-  - Extracts features from all CharBERT layers.
-  - Uses MLP processing and sigmoid activation for attention weighting.
-  - Enhances the final feature representation.
-
-(4️) Spatial Pyramid Pooling
-
-  - Applies multi-level pooling for different feature scales.
-  - Uses sliding windows to extract local and global patterns.
-
-Experiments
-
-Hyperparameters
+**Hyperparameters**
 
 | Parameter | Value |
 | --------- | ----- |
