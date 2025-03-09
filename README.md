@@ -12,7 +12,6 @@ The project utilizes multiple datasets for training and evaluation:
 
   - Kaggle Binary Dataset: 632,503 samples (50% malicious, 50% benign)
   - GramBeddings Dataset: 800,000 samples (50% malicious, 50% benign)
-  - Mendeley Dataset: 1,561,934 samples (2.2% malicious, 97.8% benign)
 
 **Features Extracted**
 
@@ -66,7 +65,8 @@ The project utilizes multiple datasets for training and evaluation:
 | Mendeley | 13.33% | 2.23% | 88.34% | 4.34% |
 | Kaggle Binary | 48.92% | 49.36% | 83.37% | 62.01% |
 
-**CharBERT Performance on GramBeddings Dataset**
+## Results on CharBERT model on GramBeddings Dataset
+
 | Epoch | Accuracy | Precision | Recall | F1-Score |
 | ----- | -------- | --------- | ------ | -------- |
 | 1 | 97.24% | 97.50% | 96.97% | 97.23% |
