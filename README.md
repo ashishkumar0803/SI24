@@ -80,6 +80,6 @@ The project utilizes multiple datasets for training and evaluation:
   - W. Ma, Y. Cui, C. Si, T. Liu, S. Wang, and G. Hu, “CharBERT: Character-Aware Pre-Trained Language Model”, arXiv:2011.01513, 2020.
   - R. Liu, Y. Wang, H. Xu, Z. Qin, Y. Liu, Z. Cao, “Malicious URL Detection via Pretrained Language Model Guided Multi-Level Feature Attention Network”, arXiv:2311.12372.
 
-**code credit**
+**Code credit :**
 [Github](https://github.com/Alixyvtte/Malicious-URL-Detection-PMANet)
   
