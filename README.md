@@ -12,6 +12,7 @@ The project utilizes multiple datasets for training and evaluation:
 
   - Kaggle Binary Dataset: 632,503 samples (50% malicious, 50% benign)
   - GramBeddings Dataset: 800,000 samples (50% malicious, 50% benign)
+  - Mendeley Dataset: 1,561,934 samples (2.2% malicious, 97.8% benign)
 
 **Features Extracted**
 
