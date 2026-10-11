@@ -1,7 +1,7 @@
 # Enhanced Malicious URL Detection Using Multi-Level Feature Attention and Pretrained Language Models
 
 ## Project Overview
-This research introduces an advanced approach for detecting malicious URLs using CharBERT, a model that captures both subword and character-level representations. The project incorporates three key modules to enhance detection accuracy:
+This research undertand an advanced approach for detecting malicious URLs using CharBERT, a model that captures both subword and character-level representations. The project incorporates three key modules to enhance detection accuracy:
   - Hierarchical Feature Extraction
   - Layer-Aware Attention
   - Spatial Pyramid Pooling
